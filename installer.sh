@@ -3,8 +3,7 @@
 ## Command: wget https://raw.githubusercontent.com/tar1971/Novaler-S-Xtra-FHD/main/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
 MY_URL="https://raw.githubusercontent.com/tar1971/Novaler-S-Xtra-FHD/main"
 ########################################  
-
-echo "    Download And Install Skins Novaler-S-Xtra-FHD  "
+Download And Install Skins Novaler-S-Xtra-FHD  "
 opkg install --force-overwrite "https://github.com/tar1971/Novaler-S-Xtra-FHD/raw/main/enigma2-plugin_skin.Novaler-S-Xtra-FHD-V5.2_all.ipk"
 wait
 ###########################################                                                                                                                  
