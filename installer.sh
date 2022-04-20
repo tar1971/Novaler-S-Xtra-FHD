@@ -6,7 +6,7 @@ MY_URL="https://raw.githubusercontent.com/tar1971/Novaler-S-Xtra-FHD/main"
 
 echo "    Download And Install Skins Novaler-S-Xtra-FHD  "
 wait
-opkg install --force-overwrite "https://github.com/tar1971/Novaler-S-Xtra-FHD/blob/main/enigma2-plugin_skin.Novaler-S-Xtra-FHD-V5.2_all.ipk"
+opkg install --force-overwrite "https://github.com/tar1971/Novaler-S-Xtra-FHD/raw/main/enigma2-plugin_skin.Novaler-S-Xtra-FHD-V5.2_all.ipk"
 wait
 ###########################################                                                                                                                  
 echo ". >>>>         RESTARING     <<<<"
