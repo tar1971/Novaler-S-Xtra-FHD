@@ -1,26 +1,23 @@
 #!/bin/sh 
 # 
-## Command: wget https://raw.githubusercontent.com/tar1971/skin-novaler-xtra/main/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
-MY_URL="https://raw.githubusercontent.com/tar1971/skin-novaler-xtra/main"
+## Command: wget https://raw.githubusercontent.com/tar1971/Novaler-S-Xtra-FHD/main/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
+MY_URL="https://raw.githubusercontent.com/tar1971/Novaler-S-Xtra-FHD/main"
 ########################################  
-NOVALLER_XTRA_BLUE="Novaler-S-Xtra-BLUE.tar.gz"
-NOVALER_XTRA_COOLER="Novaler-S-Xtra-Cooler.tar.gz"
-NOVALER_XTRA_MUSTARD="Novaler-S-Xtra-Mustard.tar.gz"
-NOVALER_XTRA_TWILLIGHT="Novaler-S-Xtra-Twillight.tar.gz"
+enigma2-plugin_skin.Novaler-S-Xtra-FHD-V5.2_all"
 echo "******************************************************************************************************************"
-echo "    Download And Install Skins Novaler-Xtra  "
+echo "    Download And Install Skins Novaler-S-Xtra-FHD  "
 echo "============================================================================================================================="
 #####################################################################################
-echo "         INSTALL SKIN-NOVALLER-XTRA-BLUE    "
+echo "         INSTALL skin.Novaler-S-Xtra-FHD-V5.2    "
 cd /tmp
 set -e 
-wget "$MY_URL/$NOVALLER_XTRA_BLUE"
+wget "$MY_URL/$skin.Novaler-S-Xtra-FHD"
 wait
-tar -xzf $NOVALLER_XTRA_BLUE  -C /
+opkg install --force-overwrite /tmp/*.ipk
 wait
 cd ..
 set +e
-rm -f /tmp/$NOVALLER_XTRA_BLUE
+rm -f /tmp/$skin.Novaler-S-Xtra-FHD
 echo "==========================================================================================================================="
 echo "         INSTALL SKIN-NOVALER-XTRA-COOLER    "
 cd /tmp
