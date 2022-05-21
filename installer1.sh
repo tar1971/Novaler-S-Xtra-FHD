@@ -5,19 +5,19 @@ MY_URL="https://raw.githubusercontent.com/tar1971/Novaler-S-Xtra-FHD/main"
 ########################################  
 NOVALLER_XTRA_BLUE="Novaler-S-Xtra-FHD"
 echo "******************************************************************************************************************"
-echo "    Download And Install Skins Novaler-S-Xtra-FHD  "
+echo "    Download And Install Skins Novaler-S-X-FHD-Blue.tar.gz  "
 echo "============================================================================================================================="
 #####################################################################################
 echo "         INSTALL NOVALER-S-X-FHD-BLUE    "
 cd /tmp
 set -e 
-wget "$MY_URL/$NOVALER-S-X-FHD-BLUE"
+wget "$MY_URL/Novaler-S-X-FHD-Blue.tar.gz"
 wait
 tar -xzf $NOVALER-S-X-FHD-BLUE  -C /
 wait
 cd ..
 set +e
-rm -f /tmp/$NOVALER-S-X-FHD-BLUE
+rm -f /tmp/Novaler-S-X-FHD-Blue.tar.gz
 echo "==========================================================================================================================="
 echo "# SKIN -S-XTRA NOVALER INSTALLED #"
 echo "
