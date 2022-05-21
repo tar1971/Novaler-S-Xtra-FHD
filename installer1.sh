@@ -13,7 +13,7 @@ cd /tmp
 set -e 
 wget "$MY_URL/Novaler-S-X-FHD-Blue.tar.gz"
 wait
-tar -xzf $NOVALER-S-X-FHD-BLUE  -C /
+tar -xzf NOVALER-S-X-FHD-BLUE  -C /
 wait
 cd ..
 set +e
